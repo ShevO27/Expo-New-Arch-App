@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform, View, Text, Button, Alert } from 'react-native';
+import { Image, StyleSheet, Platform, View, Text, Button, Alert, TextInput } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -13,6 +13,7 @@ export default function HomeScreen() {
   return (
    <View style={{marginTop: 200}}>
     <Text>INITIAL SCREEN</Text>
+    <TextInput placeholder='EMAIL' />
     <Button title='LOGIN' onPress={handleLoginButtonPress}/>
    </View>
   );
