@@ -16,6 +16,9 @@ export default function HomeScreen() {
     <TextInput placeholder='EMAIL' />
     <TextInput placeholder='PASSWORD' />
     <Button title='LOGIN' onPress={handleLoginButtonPress}/>
+    <View style={{backgroundColor: 'red'}}>
+      <Text>FOOTER</Text>
+    </View>
    </View>
   );
 }
