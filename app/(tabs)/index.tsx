@@ -12,6 +12,7 @@ export default function HomeScreen() {
     <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
     <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
     <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
+    <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
    </View>
   );
 }
