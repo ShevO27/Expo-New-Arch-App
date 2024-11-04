@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform, View, Text } from 'react-native';
+import { Image, StyleSheet, Platform, View, Text, Button, Alert, TextInput } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -6,13 +6,16 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
 export default function HomeScreen() {
+  const handleLoginButtonPress = () => {
+    Alert.alert('Button pressed')
+  }
+  
   return (
    <View style={{marginTop: 200}}>
     <Text>INITIAL SCREEN</Text>
-    <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
-    <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
-    <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
-    <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
+    <TextInput placeholder='EMAIL' />
+    <TextInput placeholder='PASSWORD' />
+    <Button title='LOGIN' onPress={handleLoginButtonPress}/>
    </View>
   );
 }
