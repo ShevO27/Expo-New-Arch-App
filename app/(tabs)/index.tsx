@@ -25,6 +25,9 @@ const LoginScreen = () => {
       <Text>SOME TEXT</Text>
       <Text>SOME TEXT</Text>
     </View>
+    <View style={{backgroundColor: 'red'}}>
+      <Text>FOOTER</Text>
+    </View>
    </View>
   );
 }
