@@ -8,7 +8,7 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
    <View style={{marginTop: 200}}>
-    <Text>START SCREEN</Text>
+    <Text>INITIAL SCREEN</Text>
    </View>
   );
 }
