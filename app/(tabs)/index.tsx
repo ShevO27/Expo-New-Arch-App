@@ -10,6 +10,7 @@ export default function HomeScreen() {
    <View style={{marginTop: 200}}>
     <Text>INITIAL SCREEN</Text>
     <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
+    <Text>THERE WILL BE SOME TEXT FOR OUR INITIAL SCREEN</Text>
    </View>
   );
 }
