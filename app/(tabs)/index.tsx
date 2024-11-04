@@ -12,6 +12,9 @@ export default function HomeScreen() {
   
   return (
    <View style={{marginTop: 200}}>
+    <View style={{backgroundColor: 'red'}}>
+      <Text>HEADER</Text>
+    </View>
     <Text>INITIAL SCREEN</Text>
     <TextInput placeholder='EMAIL' />
     <TextInput placeholder='PASSWORD' />
