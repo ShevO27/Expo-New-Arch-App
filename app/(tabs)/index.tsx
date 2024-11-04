@@ -5,23 +5,34 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function HomeScreen() {
+const LoginScreen = () => {
   const handleLoginButtonPress = () => {
     Alert.alert('Button pressed')
   }
   
   return (
    <View style={{marginTop: 200}}>
+    <View style={{backgroundColor: 'red'}}>
+      <Text>HEADER</Text>
+    </View>
     <Text>INITIAL SCREEN</Text>
     <TextInput placeholder='EMAIL' />
     <TextInput placeholder='PASSWORD' />
     <Button title='LOGIN' onPress={handleLoginButtonPress}/>
+    <View style={{backgroundColor: 'blue'}}>
+      <Text>SOME TEXT</Text>
+      <Text>SOME TEXT</Text>
+      <Text>SOME TEXT</Text>
+      <Text>SOME TEXT</Text>
+    </View>
     <View style={{backgroundColor: 'red'}}>
       <Text>FOOTER</Text>
     </View>
    </View>
   );
 }
+
+export default LoginScreen
 
 const styles = StyleSheet.create({
   titleContainer: {
